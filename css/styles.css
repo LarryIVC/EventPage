@@ -33,13 +33,32 @@ a:active {
   display: none;
 }
 
+.modal-item {
+  margin-bottom: 40px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.modal-item > a {
+  text-decoration: none;
+  color: #d3d3d3;
+}
+
+.modal-item > a:hover {
+  color: #272a31;
+}
+
+.modal-item:hover {
+  transform: scale(0.9);
+  animation-duration: 300ms;
+}
+
 .menu-cont {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-
-  /* gap: 90px; */
   background-color: #fff;
   padding: 7px 0;
 }
@@ -74,7 +93,6 @@ header {
 }
 
 /* Principal page */
-
 .principal {
   display: flex;
   flex-direction: column;
@@ -105,7 +123,7 @@ h1 {
   background-image: url(../images/bg-tittle.jpg);
   background-size: contain;
   color: transparent;
-  background-clip: text;
+  background-clip: inherit;
   -webkit-background-clip: text;
   padding-top: 0.62em;
   padding-bottom: 2.31em;
@@ -227,7 +245,6 @@ h1 {
 
 
 /* Card */
-
 .featured-singer {
   display: flex;
   flex-direction: column;
@@ -309,13 +326,11 @@ h1 {
 }
 
 /* Footer */
-
 footer {
   display: none;
 }
 
 /* Modal */
-
 #container-menu-modal {
   display: flex;
   background-color: rgba(236, 82, 65, 95%);
@@ -356,8 +371,6 @@ footer {
 
 #menu-head {
   display: flex;
-
-  /* justify-content: end; */
   margin-bottom: 3rem;
   margin-top: 15px;
   margin-left: 10px;
@@ -366,7 +379,6 @@ footer {
 }
 
 #btn-close {
-  /* padding-top: 1.87rem; */
   cursor: pointer;
 }
 
@@ -382,29 +394,7 @@ footer {
   margin-bottom: 20rem;
 }
 
-.modal-item {
-  margin-bottom: 40px;
-  font-size: 32px;
-  font-weight: 600;
-  line-height: 44px;
-}
-
-.modal-item > a {
-  text-decoration: none;
-  color: #d3d3d3;
-}
-
-.modal-item > a:hover {
-  color: #272a31;
-}
-
-.modal-item:hover {
-  transform: scale(0.9);
-  animation-duration: 300ms;
-}
-
 /* Desktop Version */
-
 @media screen and (min-width: 768px) {
   body {
     font-size: 20px;
@@ -511,13 +501,10 @@ footer {
   }
 
   .description {
-    max-width: 60%;    
+    max-width: 60%;
   }
 
-  
-
   /* program section */
-
   .program {
     flex-direction: row;
     max-width: 80%;
@@ -558,7 +545,6 @@ footer {
   }
 
   /* Singers section  */
-
   .signers-container {
     max-width: 80%;
   }
@@ -568,7 +554,6 @@ footer {
   }
 
   /* footer  */
-
   footer {
     width: 100vw;
     background-color: #d3d3d3;
