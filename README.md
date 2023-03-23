@@ -55,9 +55,9 @@
 
 ### Walktrought Concert Page <a name="walktrought"></a>
 
-**Personal Larry Villegas Portfolio - Watch Video**
+**Catholic Music Concert - Microverse - Capstone Project - Watch Video**
 
-[<img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/f2fdbd7445c8471990b5c3deda36544e-with-play.gif">](https://www.loom.com/share/f2fdbd7445c8471990b5c3deda36544e)
+[<img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/165bf7bc353a424195f804718c734c7f-with-play.gif">](https://www.loom.com/share/165bf7bc353a424195f804718c734c7f)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
