@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-   <img src="images/logo.png" alt="logo" width="140"  height="auto" />
+   <img src="images/logo-big.png" alt="logo" width="140"  height="auto" />
   <br/>
   <h1><b>Catholic Music Concert - United by the same Faith</b></h1>
 
