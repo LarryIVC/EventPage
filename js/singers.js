@@ -1,7 +1,7 @@
 const singersArray = [
   {
     name: 'Celines Diaz',
-    picture: 'images/sing-celines.png',
+    picture: './images/sing-celines.png',
     pictureAlt: 'Celines Singer photo',
     txtFeatures: 'She was born on December 31, in the city of Santo Domingo',
     txtExperience: 'In 2001, she signed a recording contract with BMG US Latin, in the city of Miami, and recorded her first album as a singer-songwriter, entitled "Seliné".',
