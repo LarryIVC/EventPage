@@ -505,6 +505,17 @@ footer {
     transition-duration: 300ms;
   }
 
+  .tittle {
+    max-width: 950px;
+    background-image: url(../images/bg-page1.png);
+  }
+
+  .description {
+    max-width: 60%;    
+  }
+
+  
+
   /* program section */
 
   .program {
