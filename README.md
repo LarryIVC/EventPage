@@ -55,10 +55,9 @@
 
 ### Walktrought Concert Page <a name="walktrought"></a>
 
-<a href="https://www.loom.com/share/f2fdbd7445c8471990b5c3deda36544e">
-    <p>LarryIVC/portfolio: Personal Larry Villegas Portfolio - Google Chrome - 10 March 2023 - Watch Video</p>
-    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/f2fdbd7445c8471990b5c3deda36544e-with-play.gif">
-</a>
+**Personal Larry Villegas Portfolio - Watch Video**
+
+[<img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/f2fdbd7445c8471990b5c3deda36544e-with-play.gif">](https://www.loom.com/share/f2fdbd7445c8471990b5c3deda36544e)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
