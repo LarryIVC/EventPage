@@ -1,14 +1,14 @@
 const singersArray = [
   {
     name: 'Celines Diaz',
-    picture: '../images/sing-celines.png',
+    picture: 'images/sing-celines.png',
     pictureAlt: 'Celines Singer photo',
     txtFeatures: 'She was born on December 31, in the city of Santo Domingo',
     txtExperience: 'In 2001, she signed a recording contract with BMG US Latin, in the city of Miami, and recorded her first album as a singer-songwriter, entitled "Seliné".',
   },
   {
     name: 'Martin Valverde',
-    picture: './images/sin-valverde.png',
+    picture: 'images/sin-valverde.png',
     pictureAlt: 'Valverde Singer photo',
     txtFeatures: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
     txtExperience: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus perspiciatis a sunt ullam deleniti! Pariatur temporibus cum voluptatem officiis quidem! Consectetur pariatur possimus perferendis ratione id rem, iure alias eligendi.',
