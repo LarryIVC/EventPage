@@ -13,7 +13,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-    - [Walkthrough to the Concert Page](#key-features)
+    - [Walkthrough to the Concert Page](#walkthrough)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -32,7 +32,7 @@
 
 # 📖 [Catholic Music Concert] <a name="about-project"></a>
 
-**[Larry Villegas Portfolio]** is a portfolio with a works as a developer
+**[The Concert Page]** is a development with all the information about the **"CMC - Catholic Music Concert 2023"**
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -53,11 +53,15 @@
 - Mobile First methodology
 - Walkthrough to the [Concert Page](https://www.loom.com/)
 
+### Walktrought Concert Page <a name="walktrought"></a>
+
+`<div style="position: relative; padding-bottom: 56.22254758418741%; height: 0;"><iframe src="https://www.loom.com/embed/f2fdbd7445c8471990b5c3deda36544e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>)`
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Click <a href="https://larryivc.github.io/EventPage/">here</a> to live demo versión.
+Click [here](https://larryivc.github.io/EventPage/index.html) to live demo versión.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
