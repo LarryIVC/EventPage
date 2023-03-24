@@ -49,15 +49,16 @@
 ### Key Features <a name="key-features"></a>
 
 **Enlist skill sets and tech stack**
+
 - Responsive design
 - Mobile First methodology
 - Walkthrough to the [Concert Page](https://www.loom.com/)
 
 ### Walktrought Concert Page <a name="walktrought"></a>
 
-**Catholic Music Concert - Microverse - Capstone Project - Watch Video**
+**Catholic Music Concert 2023 - Microverse - Capstone Project Module 1 - v2 - Watch Video**
 
-[<img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/165bf7bc353a424195f804718c734c7f-with-play.gif">](https://www.loom.com/share/165bf7bc353a424195f804718c734c7f)
+[<img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/8c1d08ddbe584779b80f1a2132df8e56-with-play.gif">](https://www.loom.com/share/8c1d08ddbe584779b80f1a2132df8e56)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
