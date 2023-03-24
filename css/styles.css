@@ -200,6 +200,11 @@ h1 {
   padding: 0.31rem;
 }
 
+.card-program:hover {
+  transform: scale(1.1);
+  transition-duration: 300ms;
+}
+
 .program-icon {
   width: 15%;
   font-size: 1.87em;
@@ -658,7 +663,7 @@ footer {
   .copyright {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 120px;
     justify-content: center;
     align-items: center;
     padding: 50px 0;
