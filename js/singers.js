@@ -46,8 +46,12 @@ const singersArray = [
 const singerContainer = document.querySelector('.singers-cards');
 let singersHtml = '';
 
-singersArray.forEach((card) => {
-  singersHtml += `<div class="card-singer">
+singersArray.forEach((card, index) => {
+  singersHtml += '<div class="card-singer';
+  if (index > 1) {
+    singersHtml += ' to-hide';
+  }
+  singersHtml += `">
     <img src="${card.picture}" alt="${card.pictureAlt}" class="singer">
     <div class="singer-description">
       <h3>${card.name}</h3>                
