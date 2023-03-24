@@ -68,12 +68,6 @@ a:active {
   animation-duration: 300ms;
 }
 
-header {
-  box-shadow: 1px 1px 4px 2px #272a31;
-  margin-bottom: 5px;
-  width: 100%;
-}
-
 .fa-bars {
   font-size: 30px;
   color: #272a31;
@@ -98,60 +92,61 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-image: url(../images/bg-mobile.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .tittle {
-  padding: 90px 20px 70px 20px;
-  background-image: url(../images/bg-mobile.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+  padding: 60px 20px 70px 20px;
   max-width: 500px;
 }
 
 .txt-tittle {
-  font-size: 1.25em;
+  font-size: 1.7em;
   color: #ec5242;
-  font-weight: 400;
-  line-height: 1.5rem;
+  font-weight: 600;
+  line-height: 1.3rem;
 }
 
 h1 {
   font-family: 'COCOGOOSE', sans-serif;
-  font-size: 1.87em;
+  font-size: 2.2em;
   font-weight: 800;
-  line-height: 2.12rem;
+  line-height: 2.2rem;
   background-image: url(../images/bg-tittle.jpg);
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
   color: transparent;
   background-clip: inherit;
   -webkit-background-clip: text;
-  padding-top: 0.62em;
-  padding-bottom: 2.31em;
+  padding-top: 0.4em;
+  padding-bottom: 0.8em;
 }
 
 .description {
-  font-size: 0.8em;
+  font-size: 1em;
   font-weight: 600;
-  line-height: 1.06rem;
-  background-color: #f8f6f6;
-  margin: 0 0 2em 0;
-  padding: 0.62em 0.31em;
-  color: #272a31;
+  line-height: 1.6rem;
+  background-color: #f7f7f7;
+  padding: 20px;
+  color: #5d5d5d;
   border: 5px solid #fff;
 }
 
 .date {
-  font-size: 1.25em;
+  font-size: 1.6em;
   font-weight: 900;
-  line-height: 1.5em;
-  color: #272a31;
+  color: #5d5d5d;
+  padding-bottom: 10px;
 }
 
 .site {
-  font-size: 0.81em;
+  font-size: 1.3em;
   font-weight: 700;
   line-height: 0.93em;
-  color: #272a31;
+  color: #5d5d5d;
 }
 
 .main-container {
@@ -243,13 +238,13 @@ h1 {
   margin-bottom: 1.87em;
 }
 
-/* Card */
+/* Card singers */
 .featured-singer {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 1.25em;
+  padding: 1.25em 0;
 }
 
 .signers-container {
@@ -258,7 +253,7 @@ h1 {
   gap: 2.12em;
   height: 100%;
   max-width: 31.25em;
-  padding: 0 0.62em;
+  padding: 20px 0.62em;
 }
 
 .singer-tittle {
@@ -285,9 +280,13 @@ h1 {
   justify-content: center;
 }
 
+.to-hide {
+  display: none;
+}
+
 .singer {
-  width: auto;
-  height: auto;
+  width: 107px;
+  height: 107px;
 }
 
 .singer-description {
@@ -322,6 +321,38 @@ h1 {
   font-weight: 700;
   line-height: 1.06em;
   color: #272a31;
+}
+
+.btn-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+  width: 100%;
+}
+
+.btn-more {
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border: 2px solid #5d5d5d;
+  color: #5d5d5d;
+  font-size: 1.1em;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+
+.btn-more:hover {
+  background-color: #5d5d5d;
+  color: #d3d3d3;
+}
+
+.btn-more > span {
+  color: #ec5242;
+  font-weight: 800;
+  font-size: 1.3em;
+  margin-left: 0.62em;
 }
 
 /* Footer */
@@ -397,6 +428,7 @@ footer {
 @media screen and (min-width: 768px) {
   body {
     font-size: 20px;
+    width: 100vw;
   }
 
   .menu-cont {
@@ -494,13 +526,30 @@ footer {
     transition-duration: 300ms;
   }
 
-  .tittle {
-    max-width: 950px;
+  .principal {
     background-image: url(../images/bg-page1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+
+  .tittle {
+    max-width: 850px;
+  }
+
+  h1 {
+    line-height: 2.8rem;
   }
 
   .description {
     max-width: 60%;
+    margin-bottom: 40px;
+    font-size: 18px;
   }
 
   /* program section */
@@ -544,12 +593,25 @@ footer {
   }
 
   /* Singers section  */
+
+  /* .featured-singer {
+    padding-bottom: 40px;
+  } */
+
   .signers-container {
     max-width: 80%;
   }
 
   .singers-cards {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .to-hide {
+    display: flex;
+  }
+
+  .to-show {
+    display: none;
   }
 
   /* footer  */
@@ -596,19 +658,24 @@ footer {
   .copyright {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 20px;
     justify-content: center;
     align-items: center;
-    padding: 20px 0;
-    width: 80%;
+    padding: 50px 0;
+    width: 100vw;
   }
 
-  .copyright > img {
-    width: 100px;
+  .cop-img {
+    width: 50%;
+    text-align: right;
+  }
+
+  .synod {
+    width: 120px;
   }
 
   .cop-desc {
-    width: 70%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -619,5 +686,6 @@ footer {
     font-weight: 700;
     line-height: 1.3em;
     color: #272a31;
+    width: 80%;
   }
 }
