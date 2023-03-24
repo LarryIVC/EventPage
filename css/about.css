@@ -24,7 +24,6 @@ a:active {
   flex-direction: column;
   width: 100vw;
   background-color: #fff;
-  height: 100%;
   justify-content: center;
   align-items: center;
 }
@@ -70,9 +69,9 @@ a:active {
 }
 
 header {
-  box-shadow: 1px 1px 4px 2px #272a31;
-  margin-bottom: 5px;
-  width: 100%;
+  box-shadow: 0 1px 4px 2px #d3d3d3;
+  margin-bottom: 3px;
+  width: 100vw;
 }
 
 .fa-bars {
@@ -95,10 +94,15 @@ header {
 
 /* About Page */
 .principal {
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-image: url(../images/bg-about-mobile.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .tittle {
@@ -106,19 +110,8 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 5.62em 1.25em 4.37em 1.25em;
-  background-image: url(../images/bg-about-mobile.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  padding: 2.62em 1.25em 4.37em 1.25em;
   max-width: 500px;
-}
-
-.txt-tit-about {
-  font-size: 1.2em;
-  color: #ec5242;
-  font-weight: 600;
-  line-height: 1.5rem;
-  text-align: center;
 }
 
 .h1-about {
@@ -139,7 +132,7 @@ header {
   margin: 0 0.62em 2.31em;
   padding: 0.62em 0.31em;
   background-color: #fff;
-  color: #272a31;
+  color: #8e8e8e;
   border: 3px solid #d3d3d3;
   text-align: center;
 }
@@ -156,7 +149,7 @@ header {
   font-size: 1.15em;
   font-weight: 900;
   line-height: 1.5em;
-  color: #272a31;
+  color: #8e8e8e;
   text-align: center;
 }
 
@@ -204,7 +197,7 @@ header {
 }
 
 .logo-big {
-  width: 80%;
+  width: 18.75em;
   height: auto;
   border: 2px solid #d3d3d3;
   padding: 30px;
@@ -463,9 +456,20 @@ header {
   }
 
   /* about page dk */
+  .principal {
+    background-image: url(../images/bg-about-dk.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+  }
+
   .tittle {
     max-width: 950px;
-    background-image: url(../images/bg-about-dk.png);
+  }
+
+  .h1-about {
+    font-size: 40px;
+    line-height: 45px;
   }
 
   .desc-about {
@@ -476,8 +480,15 @@ header {
     width: 60%;
   }
 
+  .contact-about {
+    font-size: 0.9em;
+  }
+
+  .email {
+    font-size: 1em;
+  }
+
   .logo-container {
-    max-width: 950px;
     width: 100vw;
   }
 
@@ -486,12 +497,13 @@ header {
   }
 
   .logo-big {
-    width: 50%;
+    width: 30em;
+    height: auto;
   }
 
   .past-container {
-    max-width: 950px;
     width: 100vw;
+    padding-bottom: 100px;
   }
 
   .past-img {
@@ -500,7 +512,7 @@ header {
   }
 
   .past {
-    width: 40%;
+    width: 35%;
   }
 
   /* footer */
@@ -511,12 +523,22 @@ header {
   .copyright {
     background-color: #272a31;
     gap: 40px;
-    padding: 20px;
+    padding: 60px;
     margin: 0;
   }
 
-  .copyright > img {
-    width: 250px;
+  .cop-row {
+    width: 50%;
+    text-align: right;
+  }
+
+  .cop-img {
+    width: auto;
+    height: auto;
+  }
+
+  .cop-desc {
+    width: 50%;
   }
 
   .cop-text {
