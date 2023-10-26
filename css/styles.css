@@ -48,9 +48,16 @@ header {
   transition: all 0.3s ease-in-out;
 }
 
+.menu-cont > a {
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-cont > a:hover {
+  transform: scale(1.1);
+}
+
 .modal-item > a {
   text-decoration: none;
-  /* color: #d3d3d3; */
   color: #fff;
 }
 
@@ -71,15 +78,6 @@ header {
   background-color: #fff;
   padding: 7px 0;
   box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.1);
-  /* transition: all 0.3s ease-in-out; */
-}
-
-.menu-cont > a {
-  transition: all 0.3s ease-in-out;
-}
-
-.menu-cont > a:hover {
-  transform: scale(1.1);
 }
 
 .fa-bars {
@@ -521,8 +519,7 @@ footer {
     font-size: 14px;
     font-weight: 800;
     line-height: 16.8px;
-    color: #272a31;
-    transition-property: color;
+    color: #272a31;  
     transition: all 0.3s ease-in-out;
   }
 
