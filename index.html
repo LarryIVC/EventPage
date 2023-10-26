@@ -13,10 +13,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/3848942bcd.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
 </head>
 <body>  
   <header>
-    <div class="mylinks">
+    <nav class="mylinks">
       <ul class="link-menu">
         <li class="link-item"><a ><i class="fa-brands fa-facebook-f"></i></a></li>
         <li class="link-item"><a ><i class="fa-brands fa-twitter"></i></a></li>
@@ -24,7 +25,7 @@
         <li class="link-item"><a >My Page</a></li>
         <li class="link-item"><a >Logout</a></li>
       </ul>
-    </div>
+    </nav>
     <div class="menu-cont">
       <i class="fa-sharp fa-solid fa-bars"></i>
       <a href="index.html"><img src="images/logo.png" alt="Logo Concert Music Catholic" class="logo"></a>
@@ -36,16 +37,16 @@
           <li><a class="menu-link" href="#sponsors">Sponsor</a></li>
           <li><a class="menu-link" href="#news">News</a></li>
         </ul>
-        <button class="btn-campain" type="button"><a href="#">CMC World</a></button>
+        <a class="btn-campain" href="#">CMC World</a>
       </nav>
     </div>      
   </header>  
-  <div class="page">
-    <main>
+  <main class="page">
+    <div>
       <section class="principal">
       <div class="tittle">
         <h2 class="txt-tittle">"United by the same Faith"</h2>
-        <h1 >CATHOLIC MUSIC CONCERT<br>WORLD TOUR <br>July 2023</h1>
+        <h1 >CATHOLIC MUSIC CONCERT<span>WORLD TOUR</span><span>July 2023</span></h1>
         <p class="description">In july, a series of presentations will be held in Rome, Italy, to praise and give glory to our Lord Jesus Christ.</p>
         <div class="date-site">
           <p class="date">2023.07.20(THU) ~ 22(SAT)</p>
@@ -58,31 +59,31 @@
           <h2>Main Program</h2>
           <hr class="small-line pos-line">
           <div class="program">
-            <div class="card-program">
+            <article class="card-program">
               <i class="fa-solid fa-icons program-icon"></i>
               <h3 class="program-item">Musical Material</h3>
               <p class="program-desc">Discover the material of your favorite singers, representatives of Catholic music around the world.</p>
-            </div>
-            <div class="card-program">
+            </article>
+            <article class="card-program">
               <i class="fa-solid fa-compact-disc program-icon"></i>
               <h3 class="program-item">Discography</h3>
               <p class="program-desc">Get to know your artists, find out where they perform and receive all the news.</p>
-            </div>
-            <div class="card-program">
+            </article>
+            <article class="card-program">
               <i class="fa-solid fa-file-lines program-icon"></i>
               <h3 class="program-item">Chords</h3>
               <p class="program-desc">Learn to play and sing to our Lord in the style of your favorite singer.</p>
-            </div>
-            <div class="card-program">
+            </article>
+            <article class="card-program">
               <i class="fa-solid fa-microphone-lines program-icon"></i>
               <h3 class="program-item">Karaoke</h3>
               <p class="program-desc">Sing with the original tracks of your artists, you can do it too</p>
-            </div>
-            <div class="card-program">
+            </article>
+            <article class="card-program">
               <i class="fa-solid fa-camera-retro program-icon"></i>
               <h3 class="program-item">Meet & Greet</h3>
               <p class="program-desc">Meet, share, take photos, ask for his autograph and tell him what makes you feel.</p>
-            </div>
+            </article>
 
           </div>
             <a href="#" class="whole">SEE THE WHOLE CONCERT</a>          
@@ -99,7 +100,7 @@
           </div>
         </div>        
       </section>      
-    </main>
+    </div>
     <footer>
       <div class="partner">
         <h2>Partner</h2>
@@ -122,9 +123,9 @@
         </div>
       </div>
     </footer>    
-  </div>
+  </main>
   <!-- menu modal   -->
-  <div id="container-menu-modal">
+  <dialog id="container-menu-modal">
     <div id="modal">
         <div id="menu-head">
           <i class="fa-solid fa-xmark" id="btn-close"></i>
@@ -139,7 +140,7 @@
         </div>
         <hr class="endline">
     </div>
-</div>
+</dialog>
 <script src="js/menu.js"></script>
 <script src="js/singers.js"></script>
 </body>
