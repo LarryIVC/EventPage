@@ -52,13 +52,13 @@ header {
   transition: all 0.3s ease-in-out;
 }
 
-.menu-cont > a:hover {
-  transform: scale(1.1);
-}
-
 .modal-item > a {
   text-decoration: none;
   color: #fff;
+}
+
+.menu-cont > a:hover {
+  transform: scale(1.1);
 }
 
 .modal-item > a:hover {
@@ -519,7 +519,7 @@ footer {
     font-size: 14px;
     font-weight: 800;
     line-height: 16.8px;
-    color: #272a31;  
+    color: #272a31;
     transition: all 0.3s ease-in-out;
   }
 
