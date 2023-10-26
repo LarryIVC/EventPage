@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Lato', 'COCOGOOSE', sans-serif;
+  font-family: "Lato", "COCOGOOSE", sans-serif;
 }
 
 body {
@@ -19,6 +19,12 @@ a:active {
   text-decoration: none;
 }
 
+header {
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+}
+
 .page {
   display: flex;
   flex-direction: column;
@@ -27,6 +33,7 @@ a:active {
   height: 100%;
   justify-content: center;
   align-items: center;
+  padding-top: 83px;
 }
 
 .mylinks {
@@ -38,11 +45,13 @@ a:active {
   font-size: 32px;
   font-weight: 600;
   line-height: 44px;
+  transition: all 0.3s ease-in-out;
 }
 
 .modal-item > a {
   text-decoration: none;
-  color: #d3d3d3;
+  /* color: #d3d3d3; */
+  color: #fff;
 }
 
 .modal-item > a:hover {
@@ -61,11 +70,16 @@ a:active {
   justify-content: center;
   background-color: #fff;
   padding: 7px 0;
+  box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.1);
+  /* transition: all 0.3s ease-in-out; */
+}
+
+.menu-cont > a {
+  transition: all 0.3s ease-in-out;
 }
 
 .menu-cont > a:hover {
   transform: scale(1.1);
-  animation-duration: 300ms;
 }
 
 .fa-bars {
@@ -74,12 +88,12 @@ a:active {
   cursor: pointer;
   position: absolute;
   left: 30px;
+  transition: all 0.3s ease-in-out;
 }
 
 .fa-bars:hover {
   color: #ec5242;
   transform: scale(1.1);
-  transition-duration: 300ms;
 }
 
 .nav-menu {
@@ -111,10 +125,10 @@ a:active {
 }
 
 h1 {
-  font-family: 'COCOGOOSE', sans-serif;
+  font-family: "COCOGOOSE", sans-serif;
   font-size: 2.2em;
   font-weight: 800;
-  line-height: 2.2rem;
+  line-height: 2.5rem;
   background-image: url(../images/bg-tittle.jpg);
   background-size: cover;
   background-position: center;
@@ -123,6 +137,10 @@ h1 {
   -webkit-background-clip: text;
   padding-top: 0.4em;
   padding-bottom: 0.8em;
+}
+
+h1 > span {
+  display: block;
 }
 
 .description {
@@ -198,11 +216,11 @@ h1 {
   align-items: center;
   justify-content: space-around;
   padding: 0.31rem;
+  transition: all 0.3s ease-in-out;
 }
 
 .card-program:hover {
   transform: scale(1.1);
-  transition-duration: 300ms;
 }
 
 .program-icon {
@@ -346,6 +364,7 @@ h1 {
   font-size: 1.1em;
   font-weight: 600;
   line-height: 1.2em;
+  transition: all 0.3s ease-in-out;
 }
 
 .btn-more:hover {
@@ -368,7 +387,7 @@ footer {
 /* Modal */
 #container-menu-modal {
   display: flex;
-  background-color: rgba(236, 82, 65, 95%);
+  background-color: rgba(236, 82, 65, 0.9);
   position: fixed;
   pointer-events: none;
   opacity: 0;
@@ -376,6 +395,8 @@ footer {
   left: 0;
   width: 80vw;
   height: 80vh;
+  z-index: 2;
+  border: none;
 }
 
 .turn_on {
@@ -415,6 +436,7 @@ footer {
 
 #btn-close {
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 #btn-close:hover {
@@ -438,8 +460,7 @@ footer {
 
   .menu-cont {
     justify-content: space-between;
-    margin: 0 30px;
-    width: 90%;
+    padding: 0 30px;
   }
 
   .mylinks {
@@ -464,10 +485,10 @@ footer {
     line-height: 14px;
     color: #d3d3d3;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
   }
 
   .link-item:hover {
-    transition-duration: 300ms;
     color: #ec5242;
     transform: scale(1.2);
   }
@@ -488,6 +509,10 @@ footer {
     gap: 65px;
   }
 
+  .menu-dk > li {
+    transition: all 0.3s ease-in-out;
+  }
+
   .menu-dk > li:hover {
     transform: scale(1.1);
   }
@@ -498,7 +523,7 @@ footer {
     line-height: 16.8px;
     color: #272a31;
     transition-property: color;
-    transition-duration: 300ms;
+    transition: all 0.3s ease-in-out;
   }
 
   .menu-link:hover {
@@ -514,21 +539,14 @@ footer {
     border-radius: 4px;
     padding: 7px;
     background-color: #fff;
+    color: #ec5242;
+    transition: all 0.3s ease-in-out;
   }
 
   .btn-campain:hover {
     transition-duration: 300ms;
     transform: scale(1.1);
-  }
-
-  .btn-campain > a {
-    color: #ec5242;
-  }
-
-  .btn-campain > a:hover {
     color: #272a31;
-    transition-property: color;
-    transition-duration: 300ms;
   }
 
   .principal {
